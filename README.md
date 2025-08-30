@@ -62,6 +62,8 @@ This chart shows the strategy in action:
 
 ## 📂 Code Overview
 
+For a detailed view of the complete repository structure and file descriptions, see: **[Repository Structure Guide](../backtrader-pullback-window-usdchf/REPOSITORY_STRUCTURE.md)**
+
 The entire logic is contained within `src/strategy/sunrise_osiris.py`. Here is a brief guide to its structure:
 
 -   **Global Configuration (Lines 1-150):** This top section contains all user-editable parameters, such as date ranges, starting cash, ATR thresholds, and filter settings. This makes tuning the strategy easy without touching the core logic.
